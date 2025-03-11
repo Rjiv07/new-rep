@@ -1,0 +1,11 @@
+hasattr()
+class student:
+	def __init__(self,name,age):
+		self.name = name
+		self.age = age
+s1 = student("ansjk",64)
+print(hasattr(s1,"name"))
+print(hasattr(s1,"age"))
+print(hasattr(s1,"grade"))
+
+setattr()
